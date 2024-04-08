@@ -11,13 +11,13 @@ import { BsPersonFill } from "react-icons/bs";
 import Link from 'next/link';
 const Navbar1 = () => {
   return (
-    <div className='relative'>
-        <div className='bg-blue-600 py-3 flex justify-center gap-10  '>
-           <div className='text-white flex  gap-1 '>
+    <div>
+        <div className='bg-blue-600 py-3 flex  gap-10 justify-end px-20'>
+           <div className='text-white flex  gap-2 '>
             <div className='space-y-5'><IoCall /></div>
            <div className='text-xs'>+92 3455555396</div>
            </div>
-           <div className='text-white flex gap-1'>
+           <div className='text-white flex gap-2'>
             <div className='space-y-5'><FaLocationDot /></div>
             <div className='text-xs'>Office #304-B Amna Plaza, Rawalpindi, Pakistan</div>
             </div>  
@@ -54,9 +54,9 @@ const Navbar1 = () => {
                 </div>  
                 <div className='text-white flex gap-3' >
                   <div className='space-y-5' ><BsPersonFill /> </div>
-                  <div className='flex gap-2' >
+                  <div className='flex gap-3' >
                     <div className='text-xs'>Login</div>
-                    <div className='text-xs'>|</div>
+                    <div className='text-xs text-gray-700'>|</div>
                     <div className='text-xs'>Register</div>
                   </div>
                   </div> 
